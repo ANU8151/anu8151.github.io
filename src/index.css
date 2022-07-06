@@ -1,0 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@500;800&family=Open+Sans:wght@400;600&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.btn{
+    @apply inline-flex rounded-lg py-3 px-6 font-normal text-xl border border-[#212529];
+}
+
+.btn_primary{
+    @apply gap-3 bg-[#212529] text-white;
+}
+
